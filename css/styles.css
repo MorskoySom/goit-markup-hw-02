@@ -1,0 +1,41 @@
+body {
+  background-color: aquamarine;
+}
+
+/* Base */
+
+.link {
+  text-decoration: none;
+}
+
+/* Header class block */
+
+.hero {
+  background-color: #2e2f42;
+}
+.headline {
+  color: white;
+}
+.logo-link {
+  color: blue;
+}
+.hed-link-active:hover,
+.hed-link-active:focus {
+  color: #404bbf;
+  background-color: #fff;
+}
+
+/* hero class block */
+
+.hero-btn:hover {
+  color: #404bbf;
+  background-color: #d45959;
+}
+
+/* Skills class block */
+
+/* Doings class block */
+
+/* Team class block */
+
+/* Footer class block */ ;
