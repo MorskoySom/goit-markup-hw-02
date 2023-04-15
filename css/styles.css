@@ -58,88 +58,11 @@ body {
   color: var(--color-slate);
 }
 
-/* WAREHOSE */
-.text-style-body-medium {
-  font-size: 16px;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
-}
-.text-style-header-2 {
-  font-size: 36px;
-  font-family: "Roboto";
-  font-weight: 700;
-  font-style: normal;
-  line-height: 40px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: capitalize;
-}
 
-.text-style-header-3 {
-  font-size: 20px;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
-}
-.text-style-body {
-  font-size: 16px;
-  font-family: "Roboto";
-  font-weight: 400;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
-}
-.text-style-body-medium {
-  font-size: 16px;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
-}
-.text-style-button-text {
-  font-size: 16px;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  text-decoration: none;
-  text-transform: none;
-}
-.text-style-small-text {
-  font-size: 12px;
-  font-family: "Roboto";
-  font-weight: 400;
-  font-style: normal;
-  line-height: 14px;
-  letter-spacing: 0.04em;
-  text-decoration: none;
-  text-transform: none;
-}
-.link-text {
-  font-size: 12px;
-  font-family: "Roboto";
-  font-weight: 400;
-  font-style: normal;
-  line-height: 16px;
-  letter-spacing: 0.04em;
-  text-decoration: underline;
-  text-transform: none;
-}
+
+
+
+/* WAREHOSE */
 
 /* Header section */
 .link {
@@ -165,6 +88,7 @@ body {
   font-weight: 800;
 }
 .logo-link {
+  font-family: var(--secondary-font);
   color: var(--iris-color);
 }
 .hed-link-active:hover,
@@ -172,6 +96,7 @@ body {
   color: var(--white-color);
   background-color: var(--ocean-color);
 }
+
 
 /* hero section*/
 
@@ -205,40 +130,12 @@ body {
 
 /* Skills section */
 
-.skills {
-}
-
-.skills-list {
-}
-.skills-item {
-}
-
-/* NAVY BLUE */
 
 /* Doings section */
 
-.doings {
-}
-
-.doings-list {
-}
-.doings-item {
-}
 
 /* Team section */
 
-.team {
-}
-.team-headline {
-}
-.team-list {
-}
-.team-item {
-}
-.team-name {
-}
-.team-name-place {
-}
 
 /* Footer block */
 
@@ -285,5 +182,4 @@ body {
 }
 .done-prj-item {
 }
-.link {
-}
+
