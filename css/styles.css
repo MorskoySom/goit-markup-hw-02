@@ -55,6 +55,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
+  color: var(--color-slate);
 }
 
 /* WAREHOSE */
@@ -255,16 +256,31 @@ body {
 
 /* Portfolio buttons row section */
 .btn-row {
+  color: var(--iris-color);
+  background-color: var(--color-cornflower);
+  border-style: none;
 }
 .btn-row-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
+
+.btn-row:hover,
+.btn-row:focus {
+  color: var(--white-color);
+  background-color: var(--ocean-color);
+}
+
+
 .btn-row-item {
+
 }
 
 /* Done projects */
 
-.done-prj {
-}
+
 .done-prj-list {
 }
 .done-prj-item {
