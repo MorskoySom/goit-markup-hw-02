@@ -19,8 +19,9 @@
 }
 
 body {
-  font-family: var(--primary-font);
+  font-family: var(--primary-font), Arial, Helvetica, sans-serif;
   font-weight: 500;
+  color: var(--color-navy-blue);
 }
 
 /* Base */
@@ -28,6 +29,7 @@ body {
 .list {
   list-style: none;
 }
+
 
 .headlines {
   font-size: 36px;
@@ -39,7 +41,6 @@ body {
 }
 
 .items-title {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -48,19 +49,13 @@ body {
 
 .small-text {
   font-size: 16px;
-  font-family: "Roboto";
   font-weight: 400;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
   color: var(--color-slate);
 }
-
-
-
-
 
 /* WAREHOSE */
 
@@ -69,7 +64,6 @@ body {
   color: var(--color-navy-blue);
   text-decoration: none;
   font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -97,7 +91,6 @@ body {
   background-color: var(--ocean-color);
 }
 
-
 /* hero section*/
 
 .hero {
@@ -107,9 +100,7 @@ body {
 .hero-headline {
   color: var(--white-color);
   font-size: 56px;
-  font-family: "Roboto";
   font-weight: 700;
-  font-style: normal;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -130,12 +121,9 @@ body {
 
 /* Skills section */
 
-
 /* Doings section */
 
-
 /* Team section */
-
 
 /* Footer block */
 
@@ -170,16 +158,4 @@ body {
   background-color: var(--ocean-color);
 }
 
-
-.btn-row-item {
-
-}
-
 /* Done projects */
-
-
-.done-prj-list {
-}
-.done-prj-item {
-}
-
