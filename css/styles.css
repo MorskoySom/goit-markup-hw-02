@@ -1,41 +1,103 @@
-body {
-  background-color: aquamarine;
+:root {
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --navyblue-color: #2e2f42;
+  --green-color: #31d0aa;
+  --slate-color: #434455;
+  --light-slate-color: #8e8f99;
+  --cornflowers-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+  --navybluemod-color: #2e2f42;
+  --grey-color: #2e2f42;
+  --white-color: #fff;
+  --dairy-color: #fcfcfc;
 }
 
 /* Base */
 
+/* Header block */
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 
-/* Header class block */
+.logo-link {
+  color: var(--iris-color);
+}
+.hed-link-active:hover,
+.hed-link-active:focus {
+  color: #8d2d5a;
+  background-color: #fff;
+}
+
+/* hero section*/
 
 .hero {
   background-color: #2e2f42;
 }
-.headline {
+.hero-headline {
   color: white;
 }
-.logo-link {
-  color: blue;
-}
-.hed-link-active:hover,
-.hed-link-active:focus {
-  color: #404bbf;
-  background-color: #fff;
-}
-
-/* hero class block */
-
 .hero-btn:hover {
   color: #404bbf;
   background-color: #d45959;
 }
 
-/* Skills class block */
+/* Skills section */
+.skills {
+}
+.skills-list {
+}
+.skills-item {
+}
+.skills-title {
+}
+/* Doings section */
 
-/* Doings class block */
+.doings {
+}
+.doings-headline {
+}
+.doings-list {
+}
+.doings-item {
+}
 
-/* Team class block */
+/* Team section */
 
-/* Footer class block */ ;
+.team {
+}
+.team-headline {
+}
+.team-list {
+}
+.team-item {
+}
+.team-name {
+}
+.team-name-place {
+}
+
+/* Footer block */
+
+.footer-text {
+}
+
+/* Portfolio buttons row section */
+.btn-row {
+}
+.btn-row-list {
+}
+.btn-row-item {
+}
+
+/* Done projects */
+
+.done-prj {
+}
+.done-prj-list {
+}
+.done-prj-item {
+}
+.link {
+}
