@@ -78,11 +78,17 @@ body {
   color: var(--color-slate);
 }
 
-.logo-weight {
+.logo-font {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
   font-weight: 800;
 }
+
 .logo-link {
-  font-family: var(--secondary-font);
   color: var(--iris-color);
 }
 .hed-link-active:hover,
