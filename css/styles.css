@@ -63,15 +63,21 @@ body {
 
 /* WAREHOSE */
 
-/* Header section */
-
-.address-link-text {
+.address-link-text-whouse {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+/* Header section */
+
+.address-link-text-whouse {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
 }
 
 .link-address {
