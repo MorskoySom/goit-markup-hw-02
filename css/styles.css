@@ -185,10 +185,11 @@ body {
 /* Portfolio buttons row section */
 .btn-row {
   color: var(--iris-color);
-  background-color: var(--color-cornflower);
+  background-color: var(--color-cloud);
   border-style: none;
 }
 .btn-row-list {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
