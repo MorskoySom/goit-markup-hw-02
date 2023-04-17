@@ -85,6 +85,11 @@ body {
   text-decoration: none;
   color: var(--color-slate);
 }
+
+.links-header {
+  color: var(--color-navy-blue);
+}
+
 .link-address {
   color: var(--color-slate);
 }
