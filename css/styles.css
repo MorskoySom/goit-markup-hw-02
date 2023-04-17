@@ -30,7 +30,6 @@ body {
   list-style: none;
 }
 
-
 .headlines {
   font-size: 36px;
   font-weight: 700;
@@ -91,6 +90,10 @@ body {
   background-color: var(--ocean-color);
 }
 
+.actual-link:active {
+  color: var(--ocean-color);
+}
+
 /* hero section*/
 
 .hero {
@@ -111,6 +114,7 @@ body {
 .hero-btn {
   color: var(--white-color);
   background-color: var(--iris-color);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -150,6 +154,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .btn-row:hover,
