@@ -90,7 +90,7 @@ body {
 }
 
 .logo-link {
-  color: --color-navy-blue;
+  color: var(--color-navy-blue);
 }
 .hed-link-active:hover,
 .hed-link-active:focus {
