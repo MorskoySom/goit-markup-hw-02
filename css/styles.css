@@ -99,8 +99,7 @@ body {
 }
 .hed-link-active:hover,
 .hed-link-active:focus {
-  background-color: var(--ocean-color);
-  color: var(--white-color);
+  color: var(--ocean-color);
 }
 
 /* hero section*/
