@@ -132,6 +132,10 @@ body {
 
 /* Footer block */
 
+.logo-link-footer {
+  color: var(--color-cloud);
+}
+
 .link-footer {
   color: var(--color-cloud);
   text-decoration: none;
