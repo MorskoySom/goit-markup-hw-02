@@ -84,6 +84,7 @@ body {
 }
 
 .links-header {
+  font-weight: 500;
   color: var(--color-navy-blue);
 }
 
